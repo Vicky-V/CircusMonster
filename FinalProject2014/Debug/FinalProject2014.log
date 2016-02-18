@@ -1,0 +1,29 @@
+﻿Build started 17-Sep-15 13:41:19.
+     1>Project "H:\COLLEGE BACKUP\_SIDE PROJECTS\CircusMonster_improved\FinalProject2014\FinalProject2014.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\MS Visual Studio 2013 Professional\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt WinMain.cpp
+         WinMain.cpp
+     1>h:\college backup\_side projects\circusmonster_improved\finalproject2014\derivedshapes.h(14): warning C4373: 'CRectangle::Rotate': virtual function overrides 'CShape::Rotate', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers
+                 h:\college backup\_side projects\circusmonster_improved\finalproject2014\shape.h(37) : see declaration of 'CShape::Rotate'
+     1>h:\college backup\_side projects\circusmonster_improved\finalproject2014\winmain.cpp(940): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         E:\MS Visual Studio 2013 Professional\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\COLLEGE BACKUP\_SIDE PROJECTS\CircusMonster_improved\Debug\FinalProject2014.exe" /INCREMENTAL /NOLOGO Debug/TDSoundlib.lib fmod/fmodex_vc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\COLLEGE BACKUP\_SIDE PROJECTS\CircusMonster_improved\Debug\FinalProject2014.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\COLLEGE BACKUP\_SIDE PROJECTS\CircusMonster_improved\Debug\FinalProject2014.lib" /MACHINE:X86 "Debug\Final Project_2014.res"
+         Debug\backbuffer.obj
+         Debug\backgroundBitmap.obj
+         Debug\characterClass.obj
+         Debug\DerivedShapes.obj
+         Debug\DerivedShoot.obj
+         Debug\FrameRateThrottle.obj
+         Debug\functions.obj
+         Debug\RandomNumberGenerator.obj
+         Debug\shape.obj
+         Debug\Shoot.obj
+         Debug\sprite.obj
+         Debug\spriteGDIP.obj
+         Debug\WinMain.obj
+         FinalProject2014.vcxproj -> H:\COLLEGE BACKUP\_SIDE PROJECTS\CircusMonster_improved\Debug\FinalProject2014.exe
+     1>Done Building Project "H:\COLLEGE BACKUP\_SIDE PROJECTS\CircusMonster_improved\FinalProject2014\FinalProject2014.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.50

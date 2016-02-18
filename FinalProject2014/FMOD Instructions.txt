@@ -1,0 +1,84 @@
+How to create instances of the sound class data types and use them in your project:
+
+Your project is setup  so you can start using the FMOD technology through the provide class.
+
+Creating instances and modifying behavior is quite simple and clearly demonstrates the advantages of having this technology in an easy to use class.
+
+The first thing you will need to do is create objects (instances of the class) for each sound you wish to play.
+
+The data type (class) is CSound:
+
+CSound sound1("sound1.mp3"); // Note that you must provide the file name for the sound you wish to play inside a set of quotation marks.
+
+or
+
+CSound sound1; // This uses the default constructor
+
+Using the default constructor allows you to create a CSound object without actually applying a sound file to it.
+
+In order to later use this object you can use the ChangeSound method. This method takes the same arguments as the overloaded constructor.
+
+Note: You can change the sound file being played by using the ChangeSound method on any CSound object.
+
+Also note you should paste all the sound files you wish to play into the same location as your source files for your project, you can use a sub-directory such as Sounds.
+
+One of the great features of this technology is that you can playback a large variety of sound formats such as wave, mp3, ogg and flac to name a 
+few of the more common formats. Without this technology you would be restricted to playing back only native Windows wave files.
+
+When you create an instance of the CSound object using the overloaded constructor there is an optional second parameter that is used to state if the sound should loop or not loop. 
+By default the sound is created with the loop option off however you can create the object with loop set to on by using the following method:
+
+CSound backgroundMusic("sound2.mp3", true);
+
+In this case the sound file will loop by default
+
+Once an instance has been created you can tell it to play using the built in Play() method:
+
+backgroundMusic.Play();
+
+To stop playback use Stop():
+
+backgroundMusic.Stop();
+
+There are many other member functions that allow you to use this object effectively in your project, below is a list taken from the sound class header file:
+
+	bool Play();
+	bool Stop();
+	bool Pause();
+	bool GetPause();
+
+	bool ChangeSound(const string & fileName,  bool loop = false);
+
+	unsigned int	GetTotalSounds();
+	unsigned int	GetPosition();
+	unsigned int	GetLength();
+	
+	int			GetVolume();
+	bool			GetMute();
+	bool			GetLoop();
+	bool			GetPlaying();
+	string			GetFormattedPosition();
+	string			GetFormattedLength();
+	string			GetLastError();
+	float			GetCPUUtilization();
+
+	void			SetVolume(const int & volume);
+	void			SetMute(bool mute = true);
+	void			SetLoop(bool loop = false); 
+
+The get functions that return Boolean values simply return true if the item being retrieved is true.
+
+For example GetPlaying() returns true if the sound object is currently playing.
+
+The GetLength() and GetFormattedLength() return the length of the sound file in milliseconds or minutes, seconds, milliseconds respectively.
+
+The GetPosition() and GetFormattedPosition() return the playing position of the sound file in milliseconds or minutes, seconds, milliseconds respectively.
+
+GetCPUUtilization() returns the CPU Utilization as a percentage for the single sound object.
+
+GetVolume() and SetVolume() return and set the sound volume based on a float value.
+
+Use GetLastError() if you are experiencing problems to see the last error reported by FMOD
+
+Note that if you want to use your game outside of the Visual Studio enviroment you need to have all sound files in the same folder as your exe file or
+provide the full path to the constructor.

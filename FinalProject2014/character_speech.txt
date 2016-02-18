@@ -1,0 +1,96 @@
+*
+Welcome to the demo level of the game Circus Monster! Press Enter to continue.
+Controls: WASD - move charatcer, Space - shoot, E - action button, Enter - skip message, P - pause menu.
+Thank you for trying this game, hope you will enjoy it!
+*/
+...
+Well, this doesn't look like circus... 
+It's more like a... prison.
+...
+Anyway, I need to clean this place and get out of here.
+Oh wait, there is a door over there! I think I should clean the room behind it as well...
+Hope I will have enough time for it after I finish cleaning this area.
+*
+Time limit in the upper right corner shows how much time you have before the game ends.
+Try to finish the cleaning before you run out of time to unlock the secret area.
+Time left after completing this part of the game will be your time limit for unlocking the door.
+*/
+Okay, let's start now.
+I just have to step over the garbage to collect it. 
+Yeah, that's not the most interesting job in the world, but I really need some money...
+Come on, Jake! You need to finish this and finally take off this stupid janitor uniform!
+I really need to stop talking to myself now... Let's go!!
+/
+Argh, that's so boring!!
+Let's make it more interesting...
+Hm...
+Oh, I know! I will cast fireballs to kill garbage!
+He-he, that should be awesome!
+*
+Press Space to cast a fireball.
+You can only cast one fireball at a time, so be careful while aiming.
+*/
+/
+Meh, still boring...
+I need to make this more epic.
+Wait a second... Monsters make everything epic!
+OH I SWEAR TO GOD THIS WILL BE SOOO EPIC!
+Let the show begin!!
+/
+Ha! That was easy!
+Stupid monsters. I wish they could fire at me, that would be a real combat...
+Well, maybe next time. Okay, I have to check the door now.
+Hm, I see a lock on it. That means... I have nothing else to clean here! I'M FREE!
+...
+.....
+Oh, who am I kidding, I'm curious about that door now...
+Let's see if I have time to investigate.
+:
+Great, I still have some time left! 
+There is a sign on the door, however.
+"FOR TAMERS ONLY"
+...
+Obviously, I am not allowed inside. But I think I may be able to pick the lock...
+I know it's illegal, but no one will know...
+...
+.....
+Okay, I will just see what's inside and go away! That's it!
+I'll look on the lock then.
+The mechanism of this lock is similar to the safe combination lock.
+I just need to move the dial in right directions.
+I don't know the password, but it seems like there are scratches on it...
+Looks like the password has been the same for many years and the dial left traces on the surface.
+I think I can pick this lock then!
+*
+Follow the lines around the lock to put together a 4-digit password.
+The starting point is at zero and it doesn't count as a part of the password.
+Use left and right arrow keys to move the dial and Enter button to select the number.
+Select 0 to reset the password you've entered.
+Your time limit will be displayed in the upper right corner.
+Once the time is up, the game is over. Good luck!
+*/
+/
+Yay, I opened it, I'm sooo awesome!
+Now it's time to see what's inside!
+(Hope I won't be eaten by a hungry lion...)
+ *sound of the door opening*
+Um.. What?
+...
+....
+...Is that a human being?
+But... Why does it have horns?..
+Hey, over there, can you speak?
+(Well, that wasn't the best idea ever, it will probably eat me now...)
+Hm, I think it moved a little...
+ *footsteps*
+Oh, someone is coming!
+I guess it's the security guy, I was told he would come at this time.
+Anyway, I need to close this door before anyone sees me!
+ *closes the door*
+:
+Oh, looks like I have no time for that..
+Well, next time I will find out what was inside!
+Just because I'm a crazy guy who doesn't care about rules and seeks for danger!
+Whoa, that sounded really cool.
+Okay, see you next time, mysterious door!
+&

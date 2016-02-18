@@ -1,0 +1,60 @@
+﻿Build started 17-Feb-16 17:11:15.
+     1>Project "J:\COLLEGE BACKUP\_SIDE PROJECTS\GITHUB\CircusMonster.git\trunk\FinalProject2014\FinalProject2014.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\MS Visual Studio 2013 Professional\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt backbuffer.cpp backgroundBitmap.cpp characterClass.cpp DerivedShapes.cpp DerivedShoot.cpp FrameRateThrottle.cpp functions.cpp RandomNumberGenerator.cpp shape.cpp Shoot.cpp sprite.cpp spriteGDIP.cpp WinMain.cpp
+         backbuffer.cpp
+         backgroundBitmap.cpp
+         characterClass.cpp
+     1>j:\college backup\_side projects\github\circusmonster.git\trunk\finalproject2014\DerivedShapes.h(14): warning C4373: 'CRectangle::Rotate': virtual function overrides 'CShape::Rotate', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers
+                 j:\college backup\_side projects\github\circusmonster.git\trunk\finalproject2014\shape.h(37) : see declaration of 'CShape::Rotate'
+         DerivedShapes.cpp
+     1>j:\college backup\_side projects\github\circusmonster.git\trunk\finalproject2014\DerivedShapes.h(14): warning C4373: 'CRectangle::Rotate': virtual function overrides 'CShape::Rotate', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers
+                 j:\college backup\_side projects\github\circusmonster.git\trunk\finalproject2014\shape.h(37) : see declaration of 'CShape::Rotate'
+         DerivedShoot.cpp
+     1>j:\college backup\_side projects\github\circusmonster.git\trunk\finalproject2014\DerivedShapes.h(14): warning C4373: 'CRectangle::Rotate': virtual function overrides 'CShape::Rotate', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers
+                 j:\college backup\_side projects\github\circusmonster.git\trunk\finalproject2014\shape.h(37) : see declaration of 'CShape::Rotate'
+         FrameRateThrottle.cpp
+         functions.cpp
+     1>j:\college backup\_side projects\github\circusmonster.git\trunk\finalproject2014\DerivedShapes.h(14): warning C4373: 'CRectangle::Rotate': virtual function overrides 'CShape::Rotate', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers
+                 j:\college backup\_side projects\github\circusmonster.git\trunk\finalproject2014\shape.h(37) : see declaration of 'CShape::Rotate'
+     1>functions.cpp(14): warning C4018: '<' : signed/unsigned mismatch
+         RandomNumberGenerator.cpp
+         shape.cpp
+         Shoot.cpp
+     1>j:\college backup\_side projects\github\circusmonster.git\trunk\finalproject2014\DerivedShapes.h(14): warning C4373: 'CRectangle::Rotate': virtual function overrides 'CShape::Rotate', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers
+                 j:\college backup\_side projects\github\circusmonster.git\trunk\finalproject2014\shape.h(37) : see declaration of 'CShape::Rotate'
+         sprite.cpp
+         spriteGDIP.cpp
+         WinMain.cpp
+     1>j:\college backup\_side projects\github\circusmonster.git\trunk\finalproject2014\DerivedShapes.h(14): warning C4373: 'CRectangle::Rotate': virtual function overrides 'CShape::Rotate', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers
+                 j:\college backup\_side projects\github\circusmonster.git\trunk\finalproject2014\shape.h(37) : see declaration of 'CShape::Rotate'
+     1>WinMain.cpp(940): warning C4018: '<' : signed/unsigned mismatch
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\Final Project_2014.res" "Final Project_2014.rc" 
+       Link:
+         E:\MS Visual Studio 2013 Professional\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\COLLEGE BACKUP\_SIDE PROJECTS\GITHUB\CircusMonster.git\trunk\Release\FinalProject2014.exe" /INCREMENTAL:NO /NOLOGO Release/TDSoundlib.lib fmod/fmodex_vc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"J:\COLLEGE BACKUP\_SIDE PROJECTS\GITHUB\CircusMonster.git\trunk\Release\FinalProject2014.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\COLLEGE BACKUP\_SIDE PROJECTS\GITHUB\CircusMonster.git\trunk\Release\FinalProject2014.lib" /MACHINE:X86 /SAFESEH "Release\Final Project_2014.res"
+         Release\backbuffer.obj
+         Release\backgroundBitmap.obj
+         Release\characterClass.obj
+         Release\DerivedShapes.obj
+         Release\DerivedShoot.obj
+         Release\FrameRateThrottle.obj
+         Release\functions.obj
+         Release\RandomNumberGenerator.obj
+         Release\shape.obj
+         Release\Shoot.obj
+         Release\sprite.obj
+         Release\spriteGDIP.obj
+         Release\WinMain.obj
+         Generating code
+     1>j:\college backup\_side projects\github\circusmonster.git\trunk\finalproject2014\functions.cpp(164): warning C4715: 'GetLockNumber' : not all control paths return a value
+     1>j:\college backup\_side projects\github\circusmonster.git\trunk\finalproject2014\characterclass.cpp(271): warning C4715: 'mainCharacter::GetTopPosition' : not all control paths return a value
+     1>j:\college backup\_side projects\github\circusmonster.git\trunk\finalproject2014\characterclass.cpp(293): warning C4715: 'mainCharacter::GetLeftPosition' : not all control paths return a value
+         Finished generating code
+     1>TDSoundlib.lib(soundclass.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'TDSoundlib.lib(soundclass.obj)' or at 'J:\COLLEGE BACKUP\_SIDE PROJECTS\GITHUB\CircusMonster.git\trunk\Release\vc120.pdb'; linking object as if no debug info
+         FinalProject2014.vcxproj -> J:\COLLEGE BACKUP\_SIDE PROJECTS\GITHUB\CircusMonster.git\trunk\Release\FinalProject2014.exe
+     1>Done Building Project "J:\COLLEGE BACKUP\_SIDE PROJECTS\GITHUB\CircusMonster.git\trunk\FinalProject2014\FinalProject2014.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:38.30
