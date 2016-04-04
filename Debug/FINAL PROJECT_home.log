@@ -1,0 +1,41 @@
+﻿Build started 13-Apr-14 21:36:49.
+     1>Project "I:\Game Development\Level 02\FINAL PROJECT_home\FINAL PROJECT_home\FINAL PROJECT_home.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (FINAL PROJECT_level 02.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         E:\Microsoft Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt WinMain.cpp functions.cpp
+         functions.cpp
+     1>i:\game development\level 02\final project_home\final project_home\functions.cpp(6): warning C4018: '<' : signed/unsigned mismatch
+         WinMain.cpp
+     1>i:\game development\level 02\final project_home\final project_home\winmain.cpp(416): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>i:\game development\level 02\final project_home\final project_home\winmain.cpp(443): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>i:\game development\level 02\final project_home\final project_home\winmain.cpp(462): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>i:\game development\level 02\final project_home\final project_home\winmain.cpp(489): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>i:\game development\level 02\final project_home\final project_home\winmain.cpp(509): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>i:\game development\level 02\final project_home\final project_home\winmain.cpp(539): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>i:\game development\level 02\final project_home\final project_home\winmain.cpp(558): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>i:\game development\level 02\final project_home\final project_home\winmain.cpp(587): warning C4554: '&' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>i:\game development\level 02\final project_home\final project_home\winmain.cpp(902): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+     1>i:\game development\level 02\final project_home\final project_home\functions.cpp(46): warning C4715: 'GetLockNumber' : not all control paths return a value
+       Link:
+         E:\Microsoft Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"I:\Game Development\Level 02\FINAL PROJECT_home\Debug\FINAL PROJECT_home.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"I:\Game Development\Level 02\FINAL PROJECT_home\Debug\FINAL PROJECT_home.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"I:\Game Development\Level 02\FINAL PROJECT_home\Debug\FINAL PROJECT_home.lib" /MACHINE:X86 "Debug\Final Project_2014.res"
+         Debug\backbuffer.obj
+         Debug\backgroundBitmap.obj
+         Debug\characterClass.obj
+         Debug\objectClass.obj
+         Debug\DerivedShapes.obj
+         Debug\DerivedShoot.obj
+         Debug\FrameRateThrottle.obj
+         Debug\functions.obj
+         Debug\RandomNumberGenerator.obj
+         Debug\shape.obj
+         Debug\Shoot.obj
+         Debug\sprite.obj
+         Debug\spriteGDIP.obj
+         Debug\WinMain.obj
+         FINAL PROJECT_home.vcxproj -> I:\Game Development\Level 02\FINAL PROJECT_home\Debug\FINAL PROJECT_home.exe
+     1>Done Building Project "I:\Game Development\Level 02\FINAL PROJECT_home\FINAL PROJECT_home\FINAL PROJECT_home.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:11.25
